@@ -1,3 +1,7 @@
+/* Declaracion de Variables */
+:root {
+  --space: 10px;
+}
 html, body {
   padding: 0;
   margin: 0;
@@ -8,7 +12,7 @@ html, body {
 nav {
   display: flex;
   background-color: #054e79;
-  padding: 10px;
+  padding: var(--space);
   justify-content: space-between;
   align-items: center;
 }
@@ -76,7 +80,7 @@ nav li a:hover {
   background-color: #7acc2d;
   width: 100%;
   font-size: 15px;
-  padding: 10px;
+  padding: var(--space);
   color: white;
   border: 0;
   border-radius: 20px;
@@ -86,7 +90,9 @@ nav li a:hover {
   background-color: #5e9e22;
   cursor: pointer;
 }
+/* Fin de Main Section */
 
+/* Inicio Seccion de Productos nuevos */
 .section-objects {
   display: flex;
   justify-content: center;
@@ -115,5 +121,35 @@ nav li a:hover {
 .objects-img {
   text-align: center;
 }
+/* Fin seccion de productos nuevos */
 
-/* Fin de Main Section */
+/* Inicio Seccion de menciones */
+.section-menciones {
+  display: flex;
+  justify-content: center;
+}
+
+.menciones-title {
+  position: absolute;
+}
+
+.div-section-menciones {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.menciones-content {
+  background-color: white;
+  border-style: dotted;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+.menciones-img {
+  text-align: center;
+}
+
+
+/* Fin seccion de menciones */
